@@ -1,0 +1,16 @@
+*.pt binary
+*.npz binary
+*.png binary
+*.tif binary
+*.tiff binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.svg text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,19 @@
+{
+  "candidate": "wide_residual",
+  "status": "excluded after engineering compute-limit stop; not ranked",
+  "reason": "The third epoch exceeded 20 minutes after the first two epochs required 297.8 and 521.6 seconds under concurrent CPU load.",
+  "partial_observations_not_used_for_selection": [
+    {
+      "epoch": 1,
+      "training_auc": 0.8841,
+      "validation_auc": 0.9043,
+      "seconds": 297.8
+    },
+    {
+      "epoch": 2,
+      "training_auc": 0.9005,
+      "validation_auc": 0.9121,
+      "seconds": 521.6
+    }
+  ]
+}

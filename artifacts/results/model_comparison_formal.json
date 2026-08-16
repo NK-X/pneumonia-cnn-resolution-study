@@ -1,0 +1,117 @@
+[
+  {
+    "model": "tiny_baseline",
+    "parameters": 4881,
+    "best_validation_auc": 0.9360374414976599,
+    "epochs_completed": 12,
+    "training_seconds": 601.0030965999758,
+    "seconds_per_epoch": 50.08359138333132,
+    "specification": {
+      "name": "tiny_baseline",
+      "channels": [
+        16,
+        32
+      ],
+      "residual": false,
+      "dropout": 0.0,
+      "augmentation": false,
+      "noise_std": 0.0,
+      "weight_decay": 0.0,
+      "architecture": "compact_cnn",
+      "pretrained": false
+    },
+    "model_path": "artifacts/models/tiny_baseline_formal.pt"
+  },
+  {
+    "model": "deeper_baseline",
+    "parameters": 23473,
+    "best_validation_auc": 0.9559233002231482,
+    "epochs_completed": 8,
+    "training_seconds": 435.52666420000605,
+    "seconds_per_epoch": 54.44083302500076,
+    "specification": {
+      "name": "deeper_baseline",
+      "channels": [
+        16,
+        32,
+        64
+      ],
+      "residual": false,
+      "dropout": 0.0,
+      "augmentation": false,
+      "noise_std": 0.0,
+      "weight_decay": 0.0,
+      "architecture": "compact_cnn",
+      "pretrained": false
+    },
+    "model_path": "artifacts/models/deeper_baseline_formal.pt"
+  },
+  {
+    "model": "regularised_cnn",
+    "parameters": 23473,
+    "best_validation_auc": 0.9516512306061863,
+    "epochs_completed": 9,
+    "training_seconds": 500.80455089999305,
+    "seconds_per_epoch": 55.64495009999923,
+    "specification": {
+      "name": "regularised_cnn",
+      "channels": [
+        16,
+        32,
+        64
+      ],
+      "residual": false,
+      "dropout": 0.3,
+      "augmentation": true,
+      "noise_std": 0.02,
+      "weight_decay": 0.0001,
+      "architecture": "compact_cnn",
+      "pretrained": false
+    },
+    "model_path": "artifacts/models/regularised_cnn_formal.pt"
+  },
+  {
+    "model": "compact_residual",
+    "parameters": 77169,
+    "best_validation_auc": 0.978297359742491,
+    "epochs_completed": 12,
+    "training_seconds": 1288.3478506000101,
+    "seconds_per_epoch": 107.36232088333418,
+    "specification": {
+      "name": "compact_residual",
+      "channels": [
+        16,
+        32,
+        64
+      ],
+      "residual": true,
+      "dropout": 0.3,
+      "augmentation": true,
+      "noise_std": 0.02,
+      "weight_decay": 0.0001,
+      "architecture": "compact_cnn",
+      "pretrained": false
+    },
+    "model_path": "artifacts/models/compact_residual_formal.pt"
+  },
+  {
+    "model": "pretrained_mobilenet_v3_small",
+    "parameters": 1518881,
+    "best_validation_auc": 0.9899879539485377,
+    "epochs_completed": 8,
+    "training_seconds": 460.86610669999936,
+    "seconds_per_epoch": 57.60826333749992,
+    "specification": {
+      "name": "pretrained_mobilenet_v3_small",
+      "channels": [],
+      "residual": true,
+      "dropout": 0.2,
+      "augmentation": true,
+      "noise_std": 0.01,
+      "weight_decay": 0.0001,
+      "architecture": "mobilenet_v3_small",
+      "pretrained": true
+    },
+    "model_path": "artifacts/models/pretrained_mobilenet_v3_small_formal.pt"
+  }
+]

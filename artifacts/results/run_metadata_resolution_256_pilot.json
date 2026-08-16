@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-08-15T23:56:56.553189+00:00",
+  "mode": "resolution_256_pilot",
+  "seed": 20260815,
+  "image_size": 256,
+  "batch_size": 128,
+  "optimizer": "Adam",
+  "primary_model_selection_metric": "validation ROC-AUC",
+  "selection_rule": "highest validation AUC; if within 0.005, choose fewer parameters",
+  "split_policy": "deterministic stratified image-level 70/15/15 split",
+  "patient_level_split_available": false,
+  "audit_counts": {
+    "training": 4100,
+    "validation": 878,
+    "test": 878,
+    "normal": 1583,
+    "pneumonia": 4273
+  },
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.13.0+cpu",
+  "cuda_available": false,
+  "torch_threads": 14,
+  "skip_wide_residual": false
+}

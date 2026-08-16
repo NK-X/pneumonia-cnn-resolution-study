@@ -1,0 +1,22 @@
+[
+  {
+    "model": "pretrained_mobilenet_v3_small",
+    "parameters": 1518881,
+    "best_validation_auc": 0.9938124107242771,
+    "epochs_completed": 7,
+    "training_seconds": 1208.8799533000056,
+    "seconds_per_epoch": 172.6971361857151,
+    "specification": {
+      "name": "pretrained_mobilenet_v3_small",
+      "channels": [],
+      "residual": true,
+      "dropout": 0.2,
+      "augmentation": true,
+      "noise_std": 0.01,
+      "weight_decay": 0.0001,
+      "architecture": "mobilenet_v3_small",
+      "pretrained": true
+    },
+    "model_path": "artifacts/models/pretrained_mobilenet_v3_small_resolution_256.pt"
+  }
+]

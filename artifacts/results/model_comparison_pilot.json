@@ -1,0 +1,23 @@
+[
+  {
+    "model": "tiny_baseline",
+    "parameters": 4881,
+    "best_validation_auc": 0.8752542506763562,
+    "epochs_completed": 1,
+    "training_seconds": 58.52144190000399,
+    "seconds_per_epoch": 58.52144190000399,
+    "specification": {
+      "name": "tiny_baseline",
+      "channels": [
+        16,
+        32
+      ],
+      "residual": false,
+      "dropout": 0.0,
+      "augmentation": false,
+      "noise_std": 0.0,
+      "weight_decay": 0.0
+    },
+    "model_path": "artifacts/models/tiny_baseline_pilot.pt"
+  }
+]

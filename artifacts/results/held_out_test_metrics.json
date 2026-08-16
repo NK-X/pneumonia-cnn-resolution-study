@@ -1,0 +1,18 @@
+{
+  "roc_auc": 0.9898497205711013,
+  "accuracy": 0.9328018223234624,
+  "precision": 0.9181034482758621,
+  "sensitivity": 0.9968798751950078,
+  "specificity": 0.759493670886076,
+  "f1": 0.9558713537771129,
+  "threshold": 0.5,
+  "true_positive": 639,
+  "true_negative": 180,
+  "false_positive": 57,
+  "false_negative": 2,
+  "loss": 0.16872576103866066,
+  "roc_auc_bootstrap_95_ci_lower": 0.9833884209565531,
+  "roc_auc_bootstrap_95_ci_upper": 0.994721838763316,
+  "selected_model": "pretrained_mobilenet_v3_small",
+  "test_images": 878
+}

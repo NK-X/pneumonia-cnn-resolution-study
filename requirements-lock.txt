@@ -1,0 +1,7 @@
+# Exact direct dependency versions used for the completed CPU runs.
+# The +cpu PyTorch wheel may require the official PyTorch CPU package index.
+torch==2.13.0+cpu
+torchvision==0.28.0+cpu
+numpy==2.4.6
+Pillow==12.3.0
+matplotlib==3.11.1

@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+
+# Raw medical images are not redistributed through this repository.
+data/normal/
+data/pneumonia/
+
+# Temporary and editor files.
+*.tmp
+*.bak
+*.swp
+.idea/
+.vscode/
